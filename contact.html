@@ -4,8 +4,8 @@
 <head>
     <title>Devin Jenkins portfolio</title>
     <!--add style sheet-->
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <!--add second stylesheet-->
 </head>
 
 <body>
@@ -13,6 +13,7 @@
         <div class="container"></div>
         <a href="index.html" id="logo">Devin Jenkins</a>
         <nav>
+            <a href="index.html">About</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="contact.html">Contact</a>
         </nav>
@@ -22,9 +23,27 @@
 <div id="main-container" class="container">
     <!--add section & container-->
     <section class="main-section">
-        <h1>About Me</h1>
-    <!--add image & height/width adjustments-->
-         <img src="assets/images/devinj.jpeg" alt="Devin Jenkins" height="250" width="250">
+        <h1>Contact</h1>
+        <form id="contact-form">
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="John Smith"
+                    required="required">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="example@gmail.com"
+                    required="required">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea name="nessage" id="message" required="required"></textarea>
+                </li>
+            </ul>
+            <input type="submit" name="submit">
+        </form>
+
    
     </section>
 <!--add another section & connect section-->
