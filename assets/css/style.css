@@ -1,0 +1,27 @@
+div { 
+  background-color:#4aaaa5;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  
+}
+h2 {font-family: 'Pacifico', cursive;}
+        body {
+        background-color: white;
+      }
+      
+      h1 {
+        font-family: 'ZCOOL KuaiLe', cursive;
+
+        color: #ffffff;
+        border: #cccccc;
+      }
+      p {font: #777777}
+      body p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16x;
+        font-weight: 200;
+        line-height: 1.5x;
+        letter-spacing: 1.5x 
+      }
+      
